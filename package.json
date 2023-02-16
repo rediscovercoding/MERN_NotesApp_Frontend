@@ -1,5 +1,5 @@
 {
-  "proxy": "https://mern-notesapp-backend.onrender.comn",
+  "proxy": "https://mern-notesapp-backend.onrender.com",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
