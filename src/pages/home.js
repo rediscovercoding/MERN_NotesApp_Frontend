@@ -9,7 +9,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchNotes = async () => {
-      const response = await fetch("/api/notes");
+      const response = await fetch("https://mern-notesapp-backend.onrender.com/api/notes");
       const json = await response.json();
       if (response.ok) {
         dispatch({ type: "SET_NOTES", payload: json });
